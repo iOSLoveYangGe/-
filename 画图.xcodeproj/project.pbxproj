@@ -14,6 +14,8 @@
 		BCA265AB1B6230AF0083FEDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA265AA1B6230AF0083FEDB /* Images.xcassets */; };
 		BCA265AE1B6230AF0083FEDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA265AC1B6230AF0083FEDB /* LaunchScreen.xib */; };
 		BCA265BA1B6230AF0083FEDB /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA265B91B6230AF0083FEDB /* __Tests.m */; };
+		BCA265C51B6231DC0083FEDB /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA265C41B6231DC0083FEDB /* MyView.m */; };
+		BCA265C71B6233790083FEDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA265C61B6233790083FEDB /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		BCA265B31B6230AF0083FEDB /* 画图Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "画图Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA265B81B6230AF0083FEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCA265B91B6230AF0083FEDB /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		BCA265C31B6231DC0083FEDB /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		BCA265C41B6231DC0083FEDB /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		BCA265C61B6233790083FEDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA265C71B6233790083FEDB /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		BCA265911B6230AF0083FEDB = {
 			isa = PBXGroup;
 			children = (
+				BCA265C61B6233790083FEDB /* CoreGraphics.framework */,
 				BCA2659C1B6230AF0083FEDB /* 画图 */,
 				BCA265B61B6230AF0083FEDB /* 画图Tests */,
 				BCA2659B1B6230AF0083FEDB /* Products */,
@@ -85,6 +92,8 @@
 				BCA265A21B6230AF0083FEDB /* AppDelegate.m */,
 				BCA265A41B6230AF0083FEDB /* ViewController.h */,
 				BCA265A51B6230AF0083FEDB /* ViewController.m */,
+				BCA265C31B6231DC0083FEDB /* MyView.h */,
+				BCA265C41B6231DC0083FEDB /* MyView.m */,
 				BCA265A71B6230AF0083FEDB /* Main.storyboard */,
 				BCA265AA1B6230AF0083FEDB /* Images.xcassets */,
 				BCA265AC1B6230AF0083FEDB /* LaunchScreen.xib */,
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA265C51B6231DC0083FEDB /* MyView.m in Sources */,
 				BCA265A61B6230AF0083FEDB /* ViewController.m in Sources */,
 				BCA265A31B6230AF0083FEDB /* AppDelegate.m in Sources */,
 				BCA265A01B6230AF0083FEDB /* main.m in Sources */,
